@@ -1,0 +1,181 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+main {
+    background-color: #fff;
+    padding: 2% 5%;
+    height: 96%;
+    width: 100%;
+}
+
+
+.fb-message {
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 500;
+    display: none;
+}
+
+.logo-img {
+    height: 40px;
+    margin-top: 0px;
+}
+
+.div-group {
+    width: 100%;
+}
+
+.div-form-group {
+    margin-top: 10px;
+    max-width: 450px;
+    background-color: #fff;
+    border-radius: 2%;
+    width: 100%;
+}
+
+.right-side {
+    max-width: 450px;
+}
+
+.btn-login {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.input-txt {
+    font-size: 14px;
+    padding: 10px 16px;
+    background-color: #F5F6F7;
+}
+
+.input-txt::placeholder {
+    color: #88928e;
+}
+
+.forgot-pass-txt {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+hr {
+    margin-top: 0;
+    margin-bottom: 25px
+}
+
+.btn-success {
+    border-color: #bec3c9;
+    background-color: #fff;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 6px 45px;
+    margin-bottom: 8px;
+}
+
+.create-page {
+    display: none;
+}
+
+.create-page a{
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (min-width: 1024px) {
+    main {
+        background-color: #f0f2f5;
+        padding: 12% 3%;
+        height: 96%;
+    }
+
+    .div-group {
+        width: 90%;
+        justify-content: center;
+        
+    }
+
+    .left-side {
+        display: block !important;
+        max-width: 548px;
+        margin-top: 3rem !important;
+    }
+
+    .right-side {
+        display: inline-block !important;
+    }
+
+    .logo-img {
+        height: 105px;
+        max-height: 105px;
+        max-width: 300px;
+        margin-top: 15px;
+    }
+
+    .fb-message {
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 500;
+        display: flex;
+    }
+
+    .div-form-group {
+        max-width: 396px;
+        background-color: #fff;
+        padding: 4%;
+        margin-left: 50px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    }
+
+    .input-txt {
+        font-size: 17px;
+        padding: 10px 16px;
+        background-color: #fff;
+        margin-bottom: 12px;
+    }
+
+    .btn-login {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .btn-success {
+        background-color: #42B72A;
+        font-size: 17px;
+        font-weight: 600;
+        padding: 10px 16px;
+        margin-bottom: 8px;
+        color: #fff;
+    }
+
+    .create-page {
+        font-size: 14px;
+        display: block !important;
+        max-width: 396px;
+    }
+
+    .create-page-div {
+        margin-left: 50px;
+    }
+}
+
+
+@media only screen and (min-width: 1280px) {
+    main {
+        background-color: #f0f2f5;
+        padding: 8% 12%;
+        height: 96%;
+    }
+
+    .fb-message {
+        font-size: 27px;
+    }
+}
+
+footer {
+    margin-left: 50px;
+    height: 150px;
+}
