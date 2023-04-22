@@ -6,7 +6,7 @@ html, body {
 
 main {
     background-color: #fff;
-    padding: 2% 5%;
+    padding: 2% 1%;
     height: 96%;
     width: 100%;
 }
@@ -60,6 +60,10 @@ main {
     font-size: 14px;
 }
 
+.forgot-pass-txt:hover {
+    text-decoration: underline !important;
+}
+
 hr {
     margin-top: 0;
     margin-bottom: 25px
@@ -71,8 +75,9 @@ hr {
     color: black;
     font-size: 15px;
     font-weight: 500;
-    padding: 6px 45px;
+    padding: 6px 10px;
     margin-bottom: 8px;
+    width: 80%;
 }
 
 .create-page {
@@ -146,9 +151,14 @@ hr {
         background-color: #42B72A;
         font-size: 17px;
         font-weight: 600;
-        padding: 10px 16px;
+        padding: 10px 14px;
         margin-bottom: 8px;
         color: #fff;
+        width: auto;
+    }
+
+    .btn-success:hover {
+        background-color: #39a823;
     }
 
     .create-page {
