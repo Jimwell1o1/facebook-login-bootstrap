@@ -12,8 +12,8 @@
 
     passwordInput.addEventListener('input', function() {
         if (passwordInput.value === '') {
-          passwordToggle.style.display = 'none';
+            passwordToggle.style.display = 'none';
         } else {
-          passwordToggle.style.display = 'block';
+            passwordToggle.style.display = 'block';
         }
-      });
+    });
